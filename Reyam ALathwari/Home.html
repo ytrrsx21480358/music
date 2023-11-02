@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+    <h1>
+        جدول الأغاني
+    </h1>
+    <table>
+        <tr>
+            <th>  الأغنية </th>
+            <th>  الفنان</th>
+            <th>  الألبوم</th>
+          
+        </tr>
+        <tr>
+            <td> حب إيه</td>
+            <td>  أم كلثوم</td>
+            <td> عربي طرب </td>
+           
+        </tr>
+        <tr>
+            <td> LONELY</td>
+            <td> llllll</td>
+            <td> English bluse</td>
+            
+        </tr>
+        <tr>
+            <td>Fake love </td>
+            <td>فرقة BTS </td>
+            <td>Korean BTS </td>
+            
+        </tr>
+       
+    </table>
+
+    <div class="form-cotainer">
+        <h2> تسجيل الدخول</h2>
+        <form id="login-form">
+            <input type="text" placeholder="اسم المستخدم" required>
+            <input type="password" placeholder="كلمة المرور " required>
+        </form>
+    </div>
+
+    <div class="form-cotainer">
+        <h2> إنشاء حساب</h2>
+        <form id="signup">
+            <input type="text" placeholder="اسم المستخدم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <input type="password" placeholder="كلمة المرور" required >
+            <button type="submit">
+                إنشاء حساب
+            </button>
+            <script>
+                Document.getElementById('login-form').addEventListener('submit',function(event)){
+
+                });
+                Document.getElementById('signup-form').addEventListener('submit',function(event)){
+                    event.defaultPrevented();
+});
+
+            </script>
+        </form>
+    </div>
+</body>
+</html>
